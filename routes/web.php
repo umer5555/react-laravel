@@ -29,6 +29,10 @@ Route::get('/greeting', function () {
     return 'Hello World';
 });
 
+Route::get('/nikku', function () {
+    return 'nikkuuuu';
+});
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
