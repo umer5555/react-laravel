@@ -25,8 +25,8 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/test', function () {
-    return  ('test');
+Route::get('/greeting', function () {
+    return 'Hello World';
 });
 
 Route::get('/dashboard', function () {
